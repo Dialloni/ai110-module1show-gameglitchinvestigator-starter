@@ -13,7 +13,9 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 2. How did you use AI as a teammate?
 
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
+- Claude
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
+- It suggest me with the Higher and Lower part of one of the bugs I had.
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
 ---
@@ -21,9 +23,12 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 3. Debugging and testing your fixes
 
 - How did you decide whether a bug was really fixed?
+- I decided by running the code to play the game again to find any glich or problem.
 - Describe at least one test you ran (manual or using pytest)  
   and what it showed you about your code.
+  when i ran it for the first time all my test failed because i didnt had one before.
 - Did AI help you design or understand any tests? How?
+- Claude hinted me with writting my own test. I just write the if statements because the file already has a test file.
 
 ---
 
