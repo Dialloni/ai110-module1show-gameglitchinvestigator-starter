@@ -1,20 +1,15 @@
 # 🐾 PawPal+: Smart Pet Care Management System
 
-**A professional, production-ready pet care management application built with Python OOP, intelligent algorithms, and a modern Streamlit interface.**
-
----
-
 ## 📖 Overview
 
-PawPal+ is an intelligent pet care management application that helps pet owners maintain their furry friends' health and happiness by tracking daily routines, scheduling tasks, automating recurring activities, and detecting scheduling conflicts.
+PawPal+ is an intelligent pet care management application that helps pet owners maintain their furry friends' health and happiness by tracking daily routines, scheduling tasks, and automating recurring activities.
 
-### ✨ What PawPal+ Does
-- 🐕 **Track Pet Profiles**: Store comprehensive information about multiple pets (name, species, age, breed)
-- 📅 **Schedule Daily Tasks**: Manage feedings, walks, medications, playtime, grooming, and vet appointments
-- ⏰ **Organize Priorities**: Automatically sort tasks by time and highlight urgent activities
-- ⚠️ **Detect Conflicts**: Intelligently warn about overlapping schedules and duplicate task times
-- 🔄 **Automate Recurrence**: Daily and weekly tasks automatically reschedule after completion
-- 📊 **Smart Filtering**: View tasks by pet, completion status, or time window
+### What PawPal+ Does
+- **Track Pet Profiles**: Store information about multiple pets (name, species, age, breed)
+- **Schedule Daily Tasks**: Manage feedings, walks, medications, playtime, and vet appointments
+- **Organize Priorities**: Automatically sort tasks by time and highlight urgent activities
+- **Detect Conflicts**: Warn about overlapping schedules or duplicate tasks
+- **Automate Recurrence**: Daily and weekly tasks automatically reschedule after completion
 
 ---
 
@@ -25,8 +20,6 @@ The system supports three primary user actions:
 1. **Add a Pet**: Owner creates a new pet profile with basic details
 2. **Schedule a Task**: Owner adds a task (with time, frequency, and details) to a pet's schedule
 3. **View Today's Schedule**: Owner sees all tasks organized by time, with conflict warnings
-
----
 
 ---
 
@@ -89,7 +82,6 @@ classDiagram
 ## 🚀 Features
 
 ### ✅ Core Features
-
 - **Pet Management**: Add, edit, and manage multiple pets
 - **Task Scheduling**: Create tasks with specific times and frequencies
 - **Sorting**: Tasks automatically sorted by time (earliest to latest)
@@ -97,7 +89,6 @@ classDiagram
 - **Task Completion**: Mark tasks complete with automatic recurrence handling
 
 ### 🧠 Smart Features
-
 - **Recurring Tasks**: Automatically generate next occurrence for daily/weekly tasks
 - **Conflict Detection**: Identify overlapping task times and alert users
 - **Task Status Tracking**: Distinguish between completed and pending tasks
@@ -115,7 +106,6 @@ python -m pytest tests/test_pawpal.py -v
 ```
 
 **Test Coverage:**
-
 - ✅ Task completion and status changes
 - ✅ Task addition and pet task count
 - ✅ Sorting tasks chronologically
@@ -130,19 +120,16 @@ python -m pytest tests/test_pawpal.py -v
 ## 🛠️ Usage
 
 ### Running the CLI Demo
-
 ```bash
 python main.py
 ```
 
 ### Running the Streamlit App
-
 ```bash
-streamlit run pawpal_app.py
+streamlit run app.py
 ```
 
 ### Running Tests
-
 ```bash
 python -m pytest -v
 ```
